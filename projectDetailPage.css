@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    height: 75px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+.navLInk {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logoLink {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-right: -9px;
+}
+.searchWrapper{
+    width: 100%;
+    max-width: 400px;
+  
+    position: relative;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 30%;
+    left: 15px;
+}
+#searchInput{
+    width: 100%;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+}
+
+.headingSection {
+    text-transform: capitalize;
+    margin-left: 8%;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 10%;
+
+}
+
+
+.main_div1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12%;
+    position: relative;
+    top: 50px;
+    /* padding: 5px;
+    margin: 5px; */
+}
+.photo1{
+    width: 60%;
+    /* height: 500px; */
+    /* border: 3px solid black; */
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+.singleImage{
+    width: 100%;
+    /* height: 50%; */
+}
+.details1{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid navy; */
+    line-height: 2;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.title{
+    font-size: 44px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    
+}
+.brand{
+    font-size: 22px;
+    /* height: 30px; */
+    font-weight: 100;
+    color: #009688; 
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.description{
+    font-size: 22px;
+    /* height: 30px; */
+    font-weight: 100;
+    color: #009688; 
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    /* margin-bottom: 15px; */
+}
+.price{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #009688; 
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.para{
+    /* margin-top: 20px; */
+    font-size: 18px;
+    /* font-weight: 300; */
+    color: #86939e;
+    letter-spacing: 1px;
+}
+.product_heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(27, 25, 25);
+}
+
+.img_div{
+    display: inline;
+    margin: 5px;
+    
+}
+.images{
+    width: 12%;
+    height: auto;
+    padding: 5px;
+}
+#btn_div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    position: relative;
+}
+
+
+#cart_btn{
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    /* margin-top: 36px; */
+    font-weight: 600;
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: white;
+    /* transition: transform 200ms; */
+}
+.fa-cart-shopping{
+    position: relative;
+    padding: 12px;
+}
+#count{
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+    background-color: #009688;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    right: 60px;
+}
+
+/* FOOTER CSS */
+
+.mainDivFooter {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    background-color: #1c1b1e;
+    color: white;
+    line-height: 3rem;
+    padding: 0px 200px;
+}
+
+.onlineStore,
+.links,
+.partnersDiv,
+.addressDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+    margin-left: 10px;
+}
+
+.footerLink {
+    font-size: 20px;
+}
+
+.homeLink {
+    text-decoration: none;
+    color: white;
+}

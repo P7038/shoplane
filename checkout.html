@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Shopping App </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar" id="topbar">
+            <div id="logo">
+                <a href="homePage.html" class="logoLink navLInk">
+                    <span> shop </span>
+                    lane
+                </a>
+            </div>
+
+            <a href="" class="clothes navLInk">clothing</a>
+            <a href="" class="access navLInk">accessories</a>
+            <div class="searchWrapper navLInk">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" name="search" placeholder="Search for Clothing and Accessories" id="searchInput">
+            </div>
+            <div id="cart">
+                <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <span id="count"></span>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section id="main-section">
+            <h1 id="mainHeading">Checkout</h1>
+
+            <div id="content-wrapper">
+                <div id="card-list">
+                    <h3 class="section-heading">
+                        <span id="sectionHeading">Total Items: </span> 
+                        <span id="item-count">0</span>
+                    </h3>
+                </div>
+
+                <div id="amountId">
+                    <h3 class="section-heading">Total Amount</h3>
+                    <p  class="amount">Amount: Rs<span id="total-amount">0</span></p>
+                   <a href="orderConformationPage.html"><button id="btn-place-order">Place Order</button></a> 
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="mainDivFooter">
+            <div class="onlineStore">
+                <p class="footerLink">online store</p>
+                <a href="homePage.html" class="homeLink">men clothing</a>
+                <a href="homePage.html" class="homeLink">women clothing</a>
+                <a href="homePage.html" class="homeLink">men accessories</a>
+                <a href="homePage.html" class="homeLink">women clothing</a>
+
+            </div>
+            <div class="links">
+                <p class="footerLink">helpful links</p>
+                <a href="homePage.html" class="homeLink">home</a>
+                <a href="homePage.html" class="homeLink">about</a>
+                <a href="homePage.html" class="homeLink">contact</a>
+            </div>
+            <div class="partnersDiv">
+                <p class="footerLink">partners</p>
+                <a href="homePage.html" class="homeLink">zara</a>
+                <a href="homePage.html" class="homeLink">pantaloon</a>
+                <a href="homePage.html" class="homeLink">levis</a>
+                <a href="homePage.html" class="homeLink">ucb</a>
+                <a href="homePage.html" class="homeLink">+ many more</a>
+            </div>
+            <div class="addressDiv">
+                <p class="footerLink">address</p>
+                <a href="homePage.html" class="homeLink">building 101</a>
+                <a href="homePage.html" class="homeLink">central avenue</a>
+                <a href="homePage.html" class="homeLink">la-902722</a>
+                <a href="homePage.html" class="homeLink">united states</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="../jquery-3.6.3.min.js"></script>
+    <script src="checkout.js"></script>
+</body>
+
+</html>

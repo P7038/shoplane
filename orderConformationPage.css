@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.navLInk {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logoLink {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-right: -9px;
+}
+.searchWrapper{
+    width: 100%;
+    max-width: 400px;
+  
+    position: relative;
+}
+.fa-cart-shopping{
+    position: relative;
+    padding: 12px;
+}
+#count{
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+    background-color: #009688;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    right: 60px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 30%;
+    left: 15px;
+}
+#searchInput{
+    width: 100%;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+}
+.fa-circle-check{
+    font-size: 20rem;
+    color: yellowgreen;
+    margin-top: 8rem;
+}
+.confirm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+.orderConform{
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.comfirmPara{
+    font-size: 18px;
+    margin-bottom: 7rem;
+}
+/* FOOTER CSS */
+
+.mainDivFooter {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    background-color: #1c1b1e;
+    color: white;
+    line-height: 3rem;
+    padding: 0px 200px;
+}
+
+.onlineStore,
+.links,
+.partnersDiv,
+.addressDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+    margin-left: 10px;
+}
+
+.footerLink {
+    font-size: 20px;
+}
+
+.homeLink {
+    text-decoration: none;
+    color: white;
+}
